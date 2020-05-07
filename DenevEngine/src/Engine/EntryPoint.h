@@ -6,9 +6,19 @@ extern DenevEngine::Application* DenevEngine::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Denev Engine started\n");
+	//Initializing the Application
+	DenevEngine::Log::Init();
+	DNV_CORE_WARNING("Initialized!");
+	int a=5;
+	DNV_INFO("Hello! Var = {0}", a);
+
+	//Creating Application From Entry Point
 	auto app = DenevEngine::CreateApplication();
+
+	//Application Loop
 	app->Run();
+
+	//Application End
 	delete app;
 }
 

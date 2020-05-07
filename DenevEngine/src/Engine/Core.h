@@ -9,5 +9,9 @@
 	#endif
 
 #else
-	#error DENEV ENGINe only support windows
+	#error DENEV ENGINE only support windows
 #endif
+
+
+//For events categorys and Colliders Layering on physics
+#define BIT(x) (1 << x)

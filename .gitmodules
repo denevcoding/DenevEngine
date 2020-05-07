@@ -1,0 +1,3 @@
+[submodule "DenevEngine/ThirdPartyLibs/sdpl"]
+	path = DenevEngine/ThirdPartyLibs/sdpl
+	url = https://github.com/gabime/spdlog
